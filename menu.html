@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explore our premium coffee menu - Espresso drinks, cold brews, pastries and more">
+    <title>Menu | But First, Coffee</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Poppins:wght@300;400;500;600&display=swap"
+        rel="stylesheet">
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Sticky Navigation Bar -->
+    <nav class="navbar" id="navbar" role="navigation" aria-label="Main navigation">
+        <div class="nav-container">
+            <a href="home.html" class="brand" aria-label="But First, Coffee Home">
+                <img src="447236319_338102915983406_3992045444626148929_n.jpg" alt="But First, Coffee Logo"
+                    class="logo">
+                <span class="brand-name">But First, Coffee</span>
+            </a>
+
+            <ul class="nav-links" id="navLinks">
+                <!-- Close button for mobile menu -->
+                <button class="close-menu" id="closeMenu" aria-label="Close navigation menu"></button>
+                <li><a href="home.html" class="nav-link">Home</a></li>
+                <li><a href="about.html" class="nav-link">About</a></li>
+                <li><a href="menu.html" class="nav-link active" aria-current="page">Menu</a></li>
+                <li><a href="contact.html" class="nav-link">Contact Us</a></li>
+            </ul>
+
+            <button class="hamburger" id="hamburger" aria-label="Toggle navigation menu" aria-expanded="false">
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="page-header-overlay"></div>
+        <div class="container">
+            <h1 class="page-title">Our Menu</h1>
+            <p class="page-subtitle">Handcrafted beverages and artisan treats</p>
+        </div>
+    </section>
+
+    <!-- Menu Categories -->
+    <section class="menu-section">
+        <div class="container">
+
+            <!-- Hot Coffee Category -->
+            <div class="menu-category">
+                <h2 class="category-title">Hot Coffee</h2>
+                <p class="category-description">Classic favorites brewed to perfection</p>
+
+                <div class="menu-grid">
+                    <div class="menu-card">
+                        <div class="menu-card-image">
+                            <img src="https://images.pexels.com/photos/851555/pexels-photo-851555.jpeg?auto=compress&cs=tinysrgb&w=600"
+                                alt="Classic Espresso">
+                        </div>
+                        <div class="menu-card-content">
+                            <h3>Classic Espresso</h3>
+                            <p>Rich, bold, and perfectly balanced single or double shot</p>
+                            <span class="price">₱150</span>
+                        </div>
+                    </div>
+
+                    <div class="menu-card">
+                        <div class="menu-card-image">
+                            <img src="https://images.pexels.com/photos/982612/pexels-photo-982612.jpeg?auto=compress&cs=tinysrgb&w=600"
+                                alt="Americano">
+                        </div>
+                        <div class="menu-card-content">
+                            <h3>Americano</h3>
+                            <p>Smooth espresso diluted with hot water for a lighter body</p>
+                            <span class="price">₱160</span>
+                        </div>
+                    </div>
+
+                    <div class="menu-card">
+                        <div class="menu-card-image">
+                            <img src="https://images.pexels.com/photos/312418/pexels-photo-312418.jpeg?auto=compress&cs=tinysrgb&w=600"
+                                alt="Cappuccino">
+                        </div>
+                        <div class="menu-card-content">
+                            <h3>Cappuccino</h3>
+                            <p>Equal parts espresso, steamed milk, and velvety foam</p>
+                            <span class="price">₱175</span>
+                        </div>
+                    </div>
+
+                    <div class="menu-card">
+                        <div class="menu-card-image">
+                            <img src="https://images.pexels.com/photos/373888/pexels-photo-373888.jpeg?auto=compress&cs=tinysrgb&w=600"
+                                alt="Caffe Latte">
+                        </div>
+                        <div class="menu-card-content">
+                            <h3>Caffè Latte</h3>
+                            <p>Espresso with steamed milk and a light layer of foam</p>
+                            <span class="price">₱180</span>
+                        </div>
+                    </div>
+
+                    <div class="menu-card">
+                        <div class="menu-card-image">
+                            <img src="https://images.pexels.com/photos/1833769/pexels-photo-1833769.jpeg?auto=compress&cs=tinysrgb&w=600"
+                                alt="Caramel Macchiato">
+                        </div>
+                        <div class="menu-card-content">
+                            <h3>Caramel Macchiato</h3>
+                            <p>Velvety smooth with vanilla and sweet caramel drizzle</p>
+                            <span class="price">₱195</span>
+                        </div>
+                    </div>
+
+                    <div class="menu-card">
+                        <div class="menu-card-image">
+                            <img src="https://images.pexels.com/photos/3879495/pexels-photo-3879495.jpeg?auto=compress&cs=tinysrgb&w=600"
+                                alt="Flat White">
+                        </div>
+                        <div class="menu-card-content">
+                            <h3>Flat White</h3>
+                            <p>Double shot espresso with microfoam milk for bold flavor</p>
+                            <span class="price">₱185</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Cold Coffee Category -->
+            <div class="menu-category">
+                <h2 class="category-title">Cold Coffee</h2>
+                <p class="category-description">Refreshing iced creations for warm days</p>
+
+                <div class="menu-grid">
+                    <div class="menu-card">
+                        <div class="menu-card-image">
+                            <img src="https://images.pexels.com/photos/302899/pexels-photo-302899.jpeg?auto=compress&cs=tinysrgb&w=600"
+                                alt="Cold Brew">
+                        </div>
+                        <div class="menu-card-content">
+                            <h3>Cold Brew</h3>
+                            <p>Slow-steeped for 16 hours, naturally sweet and smooth</p>
+                            <span class="price">₱180</span>
+                        </div>
+                    </div>
+
+                    <div class="menu-card">
+                        <div class="menu-card-image">
+                            <img src="https://images.pexels.com/photos/1417945/pexels-photo-1417945.jpeg?auto=compress&cs=tinysrgb&w=600"
+                                alt="Iced Latte">
+                        </div>
+                        <div class="menu-card-content">
+                            <h3>Iced Latte</h3>
+                            <p>Chilled espresso with cold milk over ice</p>
+                            <span class="price">₱175</span>
+                        </div>
+                    </div>
+
+                    <div class="menu-card">
+                        <div class="menu-card-image">
+                            <img src="https://images.pexels.com/photos/312418/pexels-photo-312418.jpeg?auto=compress&cs=tinysrgb&w=600"
+                                alt="Iced Caramel Macchiato">
+                        </div>
+                        <div class="menu-card-content">
+                            <h3>Iced Caramel Macchiato</h3>
+                            <p>Layered vanilla milk, espresso, and caramel over ice</p>
+                            <span class="price">₱190</span>
+                        </div>
+                    </div>
+
+                    <div class="menu-card">
+                        <div class="menu-card-image">
+                            <img src="77768-Vietnamese-Iced-Coffee-DDMFS-4x3-62f34e1d4658433a83801c8533dbcafe.jpg"
+                                alt="Vietnamese Iced Coffee">
+                        </div>
+                        <div class="menu-card-content">
+                            <h3>Vietnamese Iced Coffee</h3>
+                            <p>Strong coffee with sweetened condensed milk over ice</p>
+                            <span class="price">₱185</span>
+                        </div>
+                    </div>
+
+                    <div class="menu-card">
+                        <div class="menu-card-image">
+                            <img src="https://images.pexels.com/photos/2102934/pexels-photo-2102934.jpeg?auto=compress&cs=tinysrgb&w=600"
+                                alt="Nitro Cold Brew">
+                        </div>
+                        <div class="menu-card-content">
+                            <h3>Nitro Cold Brew</h3>
+                            <p>Nitrogen-infused cold brew with a creamy cascading effect</p>
+                            <span class="price">₱200</span>
+                        </div>
+                    </div>
+
+                    <div class="menu-card">
+                        <div class="menu-card-image">
+                            <img src="https://images.pexels.com/photos/4109998/pexels-photo-4109998.jpeg?auto=compress&cs=tinysrgb&w=600"
+                                alt="Iced Mocha">
+                        </div>
+                        <div class="menu-card-content">
+                            <h3>Iced Mocha</h3>
+                            <p>Chocolate and espresso with cold milk, whipped cream</p>
+                            <span class="price">₱195</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Specialty Drinks Category -->
+            <div class="menu-category">
+                <h2 class="category-title">Specialty Drinks</h2>
+                <p class="category-description">Unique creations crafted with care</p>
+
+                <div class="menu-grid">
+                    <div class="menu-card">
+                        <div class="menu-card-image">
+                            <img src="https://images.pexels.com/photos/1833769/pexels-photo-1833769.jpeg?auto=compress&cs=tinysrgb&w=600"
+                                alt="Honey Lavender Latte">
+                        </div>
+                        <div class="menu-card-content">
+                            <h3>Honey Lavender Latte</h3>
+                            <p>Espresso with lavender syrup and local honey</p>
+                            <span class="price">₱210</span>
+                        </div>
+                    </div>
+
+                    <div class="menu-card">
+                        <div class="menu-card-image">
+                            <img src="https://images.pexels.com/photos/1292862/pexels-photo-1292862.jpeg?auto=compress&cs=tinysrgb&w=600"
+                                alt="Salted Caramel Mocha">
+                        </div>
+                        <div class="menu-card-content">
+                            <h3>Salted Caramel Mocha</h3>
+                            <p>Rich chocolate with salted caramel drizzle</p>
+                            <span class="price">₱205</span>
+                        </div>
+                    </div>
+
+                    <div class="menu-card">
+                        <div class="menu-card-image">
+                            <img src="https://images.pexels.com/photos/1833769/pexels-photo-1833769.jpeg?auto=compress&cs=tinysrgb&w=600"
+                                alt="Coconut Matcha Latte">
+                        </div>
+                        <div class="menu-card-content">
+                            <h3>Coconut Matcha Latte</h3>
+                            <p>Ceremonial matcha with coconut milk</p>
+                            <span class="price">₱195</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Pastries Category -->
+            <div class="menu-category">
+                <h2 class="category-title">Artisan Pastries</h2>
+                <p class="category-description">Freshly baked daily</p>
+
+                <div class="menu-grid">
+                    <div class="menu-card">
+                        <div class="menu-card-image">
+                            <img src="https://images.pexels.com/photos/1210940/pexels-photo-1210940.jpeg?auto=compress&cs=tinysrgb&w=600"
+                                alt="Croissant">
+                        </div>
+                        <div class="menu-card-content">
+                            <h3>Butter Croissant</h3>
+                            <p>Flaky, buttery French pastry</p>
+                            <span class="price">₱120</span>
+                        </div>
+                    </div>
+
+                    <div class="menu-card">
+                        <div class="menu-card-image">
+                            <img src="https://images.pexels.com/photos/1210940/pexels-photo-1210940.jpeg?auto=compress&cs=tinysrgb&w=600"
+                                alt="Chocolate Croissant">
+                        </div>
+                        <div class="menu-card-content">
+                            <h3>Chocolate Croissant</h3>
+                            <p>Croissant with dark chocolate filling</p>
+                            <span class="price">₱140</span>
+                        </div>
+                    </div>
+
+                    <div class="menu-card">
+                        <div class="menu-card-image">
+                            <img src="https://images.pexels.com/photos/1210940/pexels-photo-1210940.jpeg?auto=compress&cs=tinysrgb&w=600"
+                                alt="Cinnamon Roll">
+                        </div>
+                        <div class="menu-card-content">
+                            <h3>Cinnamon Roll</h3>
+                            <p>Soft roll with cinnamon sugar, topped with icing</p>
+                            <span class="price">₱150</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section class="cta-section">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Ready to Order?</h2>
+                <p>Visit us today or call ahead for pickup</p>
+                <div class="cta-buttons">
+                    <a href="contact.html" class="cta-button">Get Directions</a>
+                    <a href="tel:+639171234567" class="secondary-button">Call Now</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <img src="447236319_338102915983406_3992045444626148929_n.jpg" alt="But First, Coffee Logo"
+                        class="footer-logo">
+                    <p class="footer-tagline">Crafted with passion, served with love</p>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="home.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="menu.html">Menu</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Visit Us</h4>
+                    <p class="footer-address">
+                        Centris Walk, Eton Centris<br>
+                        Diliman, Quezon City<br>
+                        Metro Manila
+                    </p>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Connect</h4>
+                    <div class="social-links">
+                        <a href="#" aria-label="Facebook" class="social-link">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                fill="currentColor">
+                                <path
+                                    d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z" />
+                            </svg>
+                        </a>
+                        <a href="#" aria-label="Instagram" class="social-link">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                fill="currentColor">
+                                <path
+                                    d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.204-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.057-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z" />
+                            </svg>
+                        </a>
+                        <a href="#" aria-label="Twitter" class="social-link">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                fill="currentColor">
+                                <path
+                                    d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2025 But First, Coffee. All rights reserved.</p>
+                <p class="footer-credits">Designed with care for coffee lovers</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+
+</html>

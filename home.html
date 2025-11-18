@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="But First, Coffee - Premium artisan coffee shop in Quezon City">
+    <title>But First, Coffee - Centris Walk | Quezon City</title>
+
+    <!-- Google Fonts - Cinzel for headlines, Poppins for body -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Poppins:wght@300;400;500;600&display=swap"
+        rel="stylesheet">
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Sticky Navigation Bar -->
+    <nav class="navbar" id="navbar" role="navigation" aria-label="Main navigation">
+        <div class="nav-container">
+            <!-- Logo and Brand -->
+            <a href="home.html" class="brand" aria-label="But First, Coffee Home">
+                <img src="447236319_338102915983406_3992045444626148929_n.jpg" alt="But First, Coffee Logo"
+                    class="logo">
+                <span class="brand-name">But First, Coffee</span>
+            </a>
+
+            <!-- Desktop Navigation Links -->
+            <ul class="nav-links" id="navLinks">
+                <!-- Close button for mobile menu -->
+                <button class="close-menu" id="closeMenu" aria-label="Close navigation menu"></button>
+                <li><a href="home.html" class="nav-link active" aria-current="page">Home</a></li>
+                <li><a href="about.html" class="nav-link">About</a></li>
+                <li><a href="menu.html" class="nav-link">Menu</a></li>
+                <li><a href="contact.html" class="nav-link">Contact Us</a></li>
+            </ul>
+
+            <!-- Mobile Hamburger Menu -->
+            <button class="hamburger" id="hamburger" aria-label="Toggle navigation menu" aria-expanded="false">
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1 class="hero-title">Crafted with Passion, <br>Served with Love</h1>
+            <p class="hero-subtitle">Experience the finest artisan coffee in the heart of Quezon City</p>
+            <a href="menu.html" class="cta-button">View Our Menu</a>
+            <div class="hero-location">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                    <circle cx="12" cy="10" r="3"></circle>
+                </svg>
+                <span>Centris Walk, Quezon City</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Section -->
+    <section class="featured-section">
+        <div class="container">
+            <div class="featured-grid">
+                <div class="featured-card">
+                    <div class="featured-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M18 8h1a4 4 0 0 1 0 8h-1"></path>
+                            <path d="M2 8h16v9a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4V8z"></path>
+                            <line x1="6" y1="1" x2="6" y2="4"></line>
+                            <line x1="10" y1="1" x2="10" y2="4"></line>
+                            <line x1="14" y1="1" x2="14" y2="4"></line>
+                        </svg>
+                    </div>
+                    <h3>Premium Beans</h3>
+                    <p>Ethically sourced from the world's finest coffee regions</p>
+                </div>
+
+                <div class="featured-card">
+                    <div class="featured-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path>
+                        </svg>
+                    </div>
+                    <h3>Expert Baristas</h3>
+                    <p>Trained professionals crafting every cup with precision</p>
+                </div>
+
+                <div class="featured-card">
+                    <div class="featured-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+                            <circle cx="12" cy="7" r="4"></circle>
+                        </svg>
+                    </div>
+                    <h3>Cozy Atmosphere</h3>
+                    <p>A welcoming space perfect for work, meetings, or relaxation</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Quick About Teaser -->
+    <section class="about-teaser">
+        <div class="container">
+            <div class="about-teaser-content">
+                <div class="about-teaser-text">
+                    <h2>Your Daily Coffee Ritual, Elevated</h2>
+                    <p>At But First, Coffee, we believe every cup tells a story. From bean to brew, we're dedicated to
+                        bringing you exceptional coffee experiences that awaken your senses and brighten your day.</p>
+                    <a href="about.html" class="secondary-button">Learn More About Us</a>
+                </div>
+                <div class="about-teaser-image">
+                    <img src="https://images.pexels.com/photos/312418/pexels-photo-312418.jpeg?auto=compress&cs=tinysrgb&w=800"
+                        alt="Artisan coffee being poured">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Menu Preview -->
+    <section class="menu-preview">
+        <div class="container">
+            <h2 class="section-title">Signature Favorites</h2>
+            <p class="section-subtitle">A taste of our most beloved creations</p>
+
+            <div class="menu-grid">
+                <div class="menu-card">
+                    <div class="menu-card-image">
+                        <img src="https://images.pexels.com/photos/851555/pexels-photo-851555.jpeg?auto=compress&cs=tinysrgb&w=600"
+                            alt="Classic Espresso">
+                    </div>
+                    <div class="menu-card-content">
+                        <h3>Classic Espresso</h3>
+                        <p>Rich, bold, and perfectly balanced</p>
+                        <span class="price">₱150</span>
+                    </div>
+                </div>
+
+                <div class="menu-card">
+                    <div class="menu-card-image">
+                        <img src="https://images.pexels.com/photos/1833769/pexels-photo-1833769.jpeg?auto=compress&cs=tinysrgb&w=600"
+                            alt="Caramel Macchiato">
+                    </div>
+                    <div class="menu-card-content">
+                        <h3>Caramel Macchiato</h3>
+                        <p>Velvety smooth with a sweet finish</p>
+                        <span class="price">₱195</span>
+                    </div>
+                </div>
+
+                <div class="menu-card">
+                    <div class="menu-card-image">
+                        <img src="https://images.pexels.com/photos/302899/pexels-photo-302899.jpeg?auto=compress&cs=tinysrgb&w=600"
+                            alt="Cold Brew">
+                    </div>
+                    <div class="menu-card-content">
+                        <h3>Cold Brew</h3>
+                        <p>Slow-steeped for 16 hours</p>
+                        <span class="price">₱180</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="menu-cta">
+                <a href="menu.html" class="secondary-button">View Full Menu</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <img src="447236319_338102915983406_3992045444626148929_n.jpg" alt="But First, Coffee Logo"
+                        class="footer-logo">
+                    <p class="footer-tagline">Crafted with passion, served with love</p>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="home.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="menu.html">Menu</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Visit Us</h4>
+                    <p class="footer-address">
+                        Centris Walk, Eton Centris<br>
+                        Diliman, Quezon City<br>
+                        Metro Manila
+                    </p>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Connect</h4>
+                    <div class="social-links">
+                        <a href="#" aria-label="Facebook" class="social-link">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                fill="currentColor">
+                                <path
+                                    d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z" />
+                            </svg>
+                        </a>
+                        <a href="#" aria-label="Instagram" class="social-link">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                fill="currentColor">
+                                <path
+                                    d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.204-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.057-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.28.073-1.689.073-4.948 0-3.204.013-3.583.07-4.849zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z" />
+                            </svg>
+                        </a>
+                        <a href="#" aria-label="Twitter" class="social-link">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                fill="currentColor">
+                                <path
+                                    d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2025 But First, Coffee. All rights reserved.</p>
+                <p class="footer-credits">Designed with care for coffee lovers</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+
+</html>
